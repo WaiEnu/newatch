@@ -44,12 +44,12 @@ export default {
   margin-left: -45px;
   box-sizing: border-box;
   transform-origin: 50% 100%; 
-  animation: bounce 3s infinite cubic-bezier(.37,.55,.49,.67);
+  animation: bounce 5s infinite cubic-bezier(.37,.55,.49,.67);
 }
 @keyframes move-left {
   0% {
     transform: translateX(-45px);
-    opacity: 1;
+    opacity: 0;
   }
   15% {
     transform: translateX(-90px);
