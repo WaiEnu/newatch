@@ -12,12 +12,11 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "4.1.1",
-    "@vue/cli-service": "4.1.1",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-service": "^4.5.13",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.0.1",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-plugin-vue": "^6.0.1"
   },
   "eslintConfig": {
     "root": true,
@@ -44,5 +43,16 @@
     "not ie <= 8"
   ],
   "keywords": [],
-  "description": ""
+  "description": "Created with CodeSandbox",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaiEnu/newatch.git"
+  },
+  "author": "waienu2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaiEnu/newatch/issues"
+  },
+  "homepage": "https://github.com/WaiEnu/newatch#readme"
 }
