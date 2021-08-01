@@ -1,5 +1,5 @@
 <template>
-  <div class="field">
+  <div class="field" @click="toggle">
     <Object :type="type"/>
   </div>
 </template>
@@ -18,6 +18,9 @@ export default {
     }
   },
   methods: {
+    toggle: function () {
+        this.type = (this.type===0) ? 1 : 0;
+    }
   },
 };
 </script>
